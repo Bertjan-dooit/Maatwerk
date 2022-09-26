@@ -1,0 +1,11 @@
+/* dooIT/Bertjan van der Heiden, part of dooIT Customizations module
+/
+/ dooIT background image
+/ Replacement SCSS for /src/enterprise/web_enterprise/static/src/scss/ui.scss
+*/
+
+.o_home_menu_background {
+    background: url(/dooIT_customizations/static/src/img/dooIT-background.png);
+    background-size: cover;
+    background-color: #00A09D;
+}

@@ -1,0 +1,10 @@
+/* CGG/Brian Gramberg, part of CGG Customizations module
+/
+/ Hide floating tour tips everywhere, also see https://apps.odoo.com/apps/modules/13.0/app_web_no_bubble/
+*/
+
+.o_tooltip {
+    &.o_animated {
+        display: none;
+    }
+}
